@@ -173,7 +173,7 @@ def ssd_512(image_size,
         https://arxiv.org/abs/1512.02325v5
     '''
 
-    n_predictor_layers = 7 # The number of predictor conv layers in the network is 7 for the original SSD512
+    n_predictor_layers = 7 # The number of predictor conv layers in the network is 7 for the original SSD512  # Minu - what is predictor layers?
     n_classes += 1 # Account for the background class.
     l2_reg = l2_regularization # Make the internal name shorter.
     img_height, img_width, img_channels = image_size[0], image_size[1], image_size[2]
